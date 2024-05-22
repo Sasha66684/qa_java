@@ -1,4 +1,4 @@
-import com.example.Animal;
+
 import com.example.Feline;
 import com.example.Lion;
 import org.junit.Before;
@@ -6,10 +6,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.Spy;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import java.util.List;
+
 
 import static org.junit.Assert.*;
 
@@ -22,7 +21,7 @@ public class LionTest {
 
     @Before
     public void setLion() throws Exception {
-        lion = new Lion("Самец", feline);
+       lion = new Lion("Самец", feline);
     }
 
 
